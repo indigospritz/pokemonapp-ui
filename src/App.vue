@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col justify-center items-center bg-slate-700 h-screen">
+  <div id="app" class="flex flex-col justify-center items-center bg-slate-700 h-screen text-slate-200">
     <HelloWorld msg="Hello Vue 2 + Vite" />
   </div>
 </template>
