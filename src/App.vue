@@ -1,18 +1,19 @@
 <template>
-  <div id="app" class="flex flex-col justify-center items-center bg-slate-700 h-screen">
-    <HelloWorld msg="Hello Vue 2 + Vite" />
+  <div
+    id="app"
+    class="flex h-screen flex-col items-center justify-center bg-slate-700"
+  >
+    <router-view />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import LoginView from "./views/LoginView.vue";
 export default {
   components: {
-    HelloWorld,
+    LoginView,
   },
 };
 </script>
 
-<style>
-
-</style>
+<style></style>
