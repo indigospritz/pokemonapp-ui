@@ -1,8 +1,5 @@
 <template>
-  <div
-    id="app"
-    class="flex h-screen flex-col items-center justify-center bg-slate-700"
-  >
+  <div id="app" class="flex justify-center bg-slate-700 py-8">
     <router-view />
   </div>
 </template>
